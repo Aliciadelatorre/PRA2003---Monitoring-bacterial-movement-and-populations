@@ -12,8 +12,8 @@ The input file (`output-Set0.txt`) is structured as:
 ## Files
 - `Week2deliverable.R` — reads one event from a data file and calculates the momentum 
   magnitude of each particle (Question 1 setup).
-- *The rest are to be defined in the upcoming weeks*
-- 
+  *The rest are to be defined in the upcoming weeks*
+
 ## Answer the following questions:**
 1. What are the average counts of each bacterial stain and their statistical uncertainties?
 2. Is there any asymmetry between the normal and the mutant strain?
