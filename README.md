@@ -13,6 +13,15 @@ The input file (`output-Set0.txt`) is structured as:
 - `Week2deliverable.R` — reads one event from a data file and calculates the momentum 
   magnitude of each particle (Question 1 setup).
   *The rest are to be defined in the upcoming weeks*
+  
+## Getting Started
+1. Install R extension in VS code
+2. Download it as a ZIP file by pressing the green "<> Code" button and selecting "download ZIP"
+
+## Running the Script
+1. Navigate into the project folder
+2. From the terminal, run:
+*Rscript Week2deliverable.R*
 
 ## Answer the following questions:
 1. What are the average counts of each bacterial stain and their statistical uncertainties?
