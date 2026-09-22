@@ -12,7 +12,7 @@ The input files (`output-Set#.txt`) is structured as:
 ## Files
 - 'Week2deliverable.R': reads one event from a data file and calculates the momentum 
   magnitude of each particle (Question 1 setup).
-- 'Week3deliverable.R': reads the full event file and calculates the average count of each bacterial strain per event, with strain codes mapped to names (Question 1: averages, still to add uncertainties)
+- 'Week3deliverable.R': reads the full event file and calculates the average count of each bacterial strain per event and uncertainties, with strain codes mapped to names (Question 1)
 - *(The rest are to be defined in the upcoming weeks)*
   
 ## Getting Started
@@ -34,19 +34,25 @@ Rscript *Week#deliverable.R*
 
 **Question 1 — average count per event:**
 
-| Bacterial strain | Average count / event |
-|---|---|
-| E. coli WT | 18.477 |
-| E. coli mutant | 18.452 |
-| Bacillus subtilis WT | 2.322 |
-| Bacillus subtilis mutant | 2.322 |
-| Pseudomonas aeruginosa WT | 1.119 |
-| Pseudomonas aeruginosa antibiotic-resistant | 1.095 |
-| Streptococcus pneumoniae | 0.257 |
-| Capsule-deficient streptococcus pneumoniae | 0.252 |
-| Mycobacterium tuberculosis | 0.036 |
-| Drug-resistant mycobacterium tuberculosis | 0.037 |
-| Salmonella enteric | 0.001 |
-| Salmonella mutant | 0.001 |  
-*Statistical uncertainties to be added.*  
+## Results
+
+**Question 1 — average count per event, with statistical uncertainty (Poisson, sqrt(N)/n_events):**
+
+ ## Results
+
+**Question 1 — average count per event, with statistical uncertainty (Poisson, sqrt(N)/n_events):**
+| Bacterial strain | Average count / event | Uncertainty |
+|---|---|---|
+| E. coli WT | 18.47739 | ± 0.006079045 |
+| E. coli mutant | 18.45157 | ± 0.006074795 |
+| Bacillus subtilis WT | 2.321694 | ± 0.002154852 |
+| Bacillus subtilis mutant | 2.322076 | ± 0.002155029 |
+| Pseudomonas aeruginosa WT | 1.119182 | ± 0.001496116 |
+| Pseudomonas aeruginosa antibiotic-resistant | 1.094724 | ± 0.001479678 |
+| Streptococcus pneumoniae | 0.256764 | ± 0.0007166087 |
+| Capsule-deficient streptococcus pneumoniae | 0.252488 | ± 0.0007106166 |
+| Mycobacterium tuberculosis | 0.036264 | ± 0.0002693102 |
+| Drug-resistant mycobacterium tuberculosis | 0.036612 | ± 0.0002705993 |
+| Salmonella enteric | 0.001188 | ± 4.874423e^-05 |
+| Salmonella mutant | 0.001088 | ± 4.664762e^-05 |
 *(to be filled in once analysis for all three questions is complete)*
