@@ -8,6 +8,7 @@ The input files (`output-Set#.txt`) is structured as:
 - **Header line:** `event_id n_particles`
 - **One line per particle:** `px py pz code`, where `px/py/pz` are the momentum 
   components and `code` identifies the strain (normal or mutant).
+- 'Output-Set1.txt' (~500K events) is not included in this repository due to file size; obtain it from https://surfdrive.surf.nl/s/?dir=/
 
 ## Files
 - 'Week2deliverable.R': reads one event from a data file and calculates the momentum 
