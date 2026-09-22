@@ -12,8 +12,8 @@ The input files (`output-Set#.txt`) is structured as:
 ## Files
 - 'Week2deliverable.R': reads one event from a data file and calculates the momentum 
   magnitude of each particle (Question 1 setup).
-- 'Week3deliverable.R': reads the full event file and calculates the average count of each bacterial strain per event, with strain codes mapped to names (Question 1: averages, still to add uncertainties)  
-  *The rest are to be defined in the upcoming weeks*
+- 'Week3deliverable.R': reads the full event file and calculates the average count of each bacterial strain per event, with strain codes mapped to names (Question 1: averages, still to add uncertainties)
+- *(The rest are to be defined in the upcoming weeks)*
   
 ## Getting Started
 1. Install R extension in VS code
