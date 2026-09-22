@@ -12,7 +12,7 @@ The input files (`output-Set#.txt`) is structured as:
 ## Files
 - 'Week2deliverable.R': reads one event from a data file and calculates the momentum 
   magnitude of each particle (Question 1 setup).
-- 'Week3deliverable.R': reads the full event file and calculates the average count of each bacterial strain per event and uncertainties, with strain codes mapped to names (Question 1)
+- 'Week3deliverable.R': reads the full event file and calculates the average count of each bacterial strain per event and its uncertainties, with strain names (Question 1)
 - *(The rest are to be defined in the upcoming weeks)*
   
 ## Getting Started
@@ -28,15 +28,6 @@ Rscript *Week#deliverable.R*
 1. What are the average counts of each bacterial stain and their statistical uncertainties?
 2. Is there any asymmetry between the normal and the mutant strain?
 3. Is there any asymmetry as a function of their momentum?
-
-## Results
-## Results
-
-**Question 1 — average count per event:**
-
-## Results
-
-**Question 1 — average count per event, with statistical uncertainty (Poisson, sqrt(N)/n_events):**
 
  ## Results
 
@@ -55,4 +46,3 @@ Rscript *Week#deliverable.R*
 | Drug-resistant mycobacterium tuberculosis | 0.036612 | ± 0.0002705993 |
 | Salmonella enteric | 0.001188 | ± 4.874423e^-05 |
 | Salmonella mutant | 0.001088 | ± 4.664762e^-05 |
-*(to be filled in once analysis for all three questions is complete)*
