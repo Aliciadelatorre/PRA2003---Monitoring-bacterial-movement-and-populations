@@ -31,19 +31,3 @@ Rscript *Week#deliverable.R*
 3. Is there any asymmetry as a function of their momentum?
 
  ## Results
-
-**Question 1 — average count per event, with statistical uncertainty (Poisson, sqrt(N)/n_events):**
-| Bacterial strain | Average count / event | Uncertainty |
-|---|---|---|
-| E. coli WT | 18.47739 | ± 0.006079045 |
-| E. coli mutant | 18.45157 | ± 0.006074795 |
-| Bacillus subtilis WT | 2.321694 | ± 0.002154852 |
-| Bacillus subtilis mutant | 2.322076 | ± 0.002155029 |
-| Pseudomonas aeruginosa WT | 1.119182 | ± 0.001496116 |
-| Pseudomonas aeruginosa antibiotic-resistant | 1.094724 | ± 0.001479678 |
-| Streptococcus pneumoniae | 0.256764 | ± 0.0007166087 |
-| Capsule-deficient streptococcus pneumoniae | 0.252488 | ± 0.0007106166 |
-| Mycobacterium tuberculosis | 0.036264 | ± 0.0002693102 |
-| Drug-resistant mycobacterium tuberculosis | 0.036612 | ± 0.0002705993 |
-| Salmonella enteric | 0.001188 | ± 4.874423e^-05 |
-| Salmonella mutant | 0.001088 | ± 4.664762e^-05 |
