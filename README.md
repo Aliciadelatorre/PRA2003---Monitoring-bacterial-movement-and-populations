@@ -66,7 +66,7 @@ Its uncertainty is the SD of the 10 sub-sample values of A. Calculating A per su
 | M. tuberculosis | 0.0004 ± 0.0005 | 0.6 ± 0.6 | 0.9σ | Symmetric |
 | Salmonella | 0.00004 ± 0.00007 | 1.6 ± 2.9 | 0.5σ | Symmetric |
 
-**Conclusion:** Using a 3σ threshold, three of the six pairs (*E. coli*, *P. aeruginosa* and *S. pneumoniae*) are asymmetric, with the WT more abundant than the mutant. Although *E. coli* shows the largest absolute difference in counts, *P. aeruginosa* (A ≈ 1.0%) and *S. pneumoniae* (A ≈ 0.9%) show the strongest asymmetry relative to their abundance. *B. subtilis*, *M. tuberculosis* and *Salmonella* are consistent with symmetry: their differences are small compared to the spread between sub-samples. *Salmonella* has the largest A value, but it is also the rarest strain, so its uncertainty is too large for the asymmetry to be significant.
+**Conclusion:** Using a 3σ threshold, three of the six pairs (*E. coli*, *P. aeruginosa* and *S. pneumoniae*) are asymmetric, with the WT more abundant than the mutant. Although *E. coli* shows the largest absolute difference in counts, *P. aeruginosa* and *S. pneumoniae* show the strongest asymmetry relative to their abundance. *B. subtilis*, *M. tuberculosis* and *Salmonella* are consistent with symmetry: their differences are small compared to the spread between sub-samples. *Salmonella* has the largest A value, but it is also the rarest strain, so its uncertainty is too large for the asymmetry to be significant.
 
 ### Question 3: Asymmetry as a function of momentum
-*To be added.*
+*To be added*
