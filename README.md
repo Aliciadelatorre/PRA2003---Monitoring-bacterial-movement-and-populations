@@ -8,22 +8,20 @@ The input files (`output-Set#.txt`) is structured as:
 - **Header line:** `event_id n_particles`
 - **One line per particle:** `px py pz code`, where `px/py/pz` are the momentum 
   components and `code` identifies the strain (normal or mutant).
-- 'Output-Set1.txt' (~500K events) is not included in this repository due to file size; obtain it from (https://surfdrive.surf.nl/index.php/s/7udCnWTk4yMUASD)
+- The full sample consists of 10 files ('output-Set1.txt' to 'output-Set10.txt'), each with 500K events (5M events in total). They are not included in this repository due to file size. Obtain them from (https://surfdrive.surf.nl/index.php/s/7udCnWTk4yMUASD)
 
 ## Files
-- 'Week2deliverable.R': reads one event from a data file and calculates the momentum 
-  magnitude of each particle (Question 1 setup).
-- 'Week3deliverable.R': reads the full event file and calculates the average count of each bacterial strain per event and its uncertainties, with strain names (Question 1)
-- *(The rest are to be defined in the upcoming weeks)*
+- 'Week2deliverable.R': reads one event from a data file and calculates the momentum magnitude of each particle (Question 1 setup).
+- 'Week3deliverable.R': reads the full event file and calculates the average count of each bacterial strain per event and its uncertainties, with strain names (Question 1). For the full-sample result, this script was run separately on each of the 10 sub-samples ('output-Set1.txt' to 'output-Set2.txt')
   
 ## Getting Started
 1. Install R extension in VS code
 2. Download the folder as a ZIP file by pressing the green "<> Code" button and selecting "download ZIP"
+3. Download the data files from surfdrive and place them in the project folder
 
 ## Running the Script
 1. Navigate into the project folder
-2. From the terminal, run:
-Rscript *Week#deliverable.R*
+2. From the terminal, run: Rscript *Week#deliverable.R*
 
 ## Answer the following questions:
 1. What are the average counts of each bacterial stain and their statistical uncertainties?
@@ -31,3 +29,4 @@ Rscript *Week#deliverable.R*
 3. Is there any asymmetry as a function of their momentum?
 
  ## Results
+### Question 1: Average count per event (full sample, 5M events)
