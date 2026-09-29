@@ -31,43 +31,42 @@ The input files (`output-Set#.txt`) are structured as:
  ## Results
 ### Question 1: Average count per event (full sample, 5M events)
 ### Method: sub-sampling
-The full sample (5M events) was split into 10 sub-samples of 500K events (`output-Set1.txt` to `output-Set10.txt`). Each quantity was calculated separately in every sub-sample. The final result is the mean of the 10 sub-sample results, which equals the result for the full sample. Its statistical uncertainty comes from the spread of the sub-sample results:
-
-$$\sigma_{\text{mean}} = \frac{\text{SD}}{\sqrt{n}}, \quad n = 10$$
+The full sample (5M events) was split into 10 sub-samples of 500K events (`output-Set1.txt` to `output-Set10.txt`). Each quantity was calculated separately in every sub-sample. The final result is the mean of the 10 sub-sample results, which equals the result for the full sample. Its statistical uncertainty is the standard deviation (SD) of the 10 sub-sample results.
 
 ### Question 1: Average count per event (full sample, 5M events)
 
-| Strain | Mean count per event ± uncertainty |
+| Strain | Mean count per event ± uncertainty (SD) |
 |---|---|
-| E. coli WT | 19.950 ± 0.010 |
-| E. coli mutant | 19.917 ± 0.010 |
-| Bacillus subtilis WT | 2.5092 ± 0.0015 |
-| Bacillus subtilis mutant | 2.5035 ± 0.0017 |
-| Pseudomonas aeruginosa WT | 1.20803 ± 0.00060 |
-| Pseudomonas aeruginosa antibiotic-resistant | 1.18416 ± 0.00076 |
-| Streptococcus pneumoniae | 0.27660 ± 0.00034 |
-| Capsule-deficient S. pneumoniae | 0.27170 ± 0.00031 |
-| Mycobacterium tuberculosis | 0.03944 ± 0.00009 |
-| Drug-resistant M. tuberculosis | 0.03900 ± 0.00013 |
-| Salmonella enterica | 0.00119 ± 0.00001 |
-| Salmonella mutant | 0.00115 ± 0.00002 |
+| E. coli WT | 19.950 ± 0.033 |
+| E. coli mutant | 19.917 ± 0.032 |
+| Bacillus subtilis WT | 2.5092 ± 0.0048 |
+| Bacillus subtilis mutant | 2.5035 ± 0.0055 |
+| Pseudomonas aeruginosa WT | 1.2080 ± 0.0019 |
+| Pseudomonas aeruginosa antibiotic-resistant | 1.1842 ± 0.0024 |
+| Streptococcus pneumoniae | 0.2766 ± 0.0011 |
+| Capsule-deficient S. pneumoniae | 0.2717 ± 0.0010 |
+| Mycobacterium tuberculosis | 0.0394 ± 0.0003 |
+| Drug-resistant M. tuberculosis | 0.0390 ± 0.0004 |
+| Salmonella enterica | 0.00119 ± 0.00004 |
+| Salmonella mutant | 0.00115 ± 0.00005 |
 
 ### Question 2: Asymmetry between normal and mutant strains
-For each pair, the asymmetry was calculated in every sub-sample:
+For each pair, the relative asymmetry was calculated in every sub-sample:
+
 $$A = \frac{N_{\text{WT}} - N_{\text{mutant}}}{N_{\text{WT}} + N_{\text{mutant}}}$$
 
-Its uncertainty was calculated in the same way as above (SD/√10). Calculating A per sub-sample takes into account that both strains are measured on the same events. A pair is classified as **asymmetric** if |A| exceeds 3 times its uncertainty (3σ threshold), and as **symmetric** otherwise.
+Its uncertainty is the SD of the 10 sub-sample values of A. Calculating A per sub-sample takes into account that both strains are measured on the same events. A pair is classified as **asymmetric** if |A| exceeds 3 times its uncertainty (3σ threshold), and as **symmetric** otherwise.
 
 | Pair | Difference (WT − mutant) | Asymmetry A (%) | Significance | Result |
 |---|---|---|---|---|
-| E. coli | 0.0323 ± 0.0014 | 0.081 ± 0.004 | 23σ | Asymmetric |
-| B. subtilis | 0.0057 ± 0.0010 | 0.11 ± 0.02 | 5.5σ | Asymmetric |
-| P. aeruginosa | 0.0239 ± 0.0008 | 1.00 ± 0.03 | 32σ | Asymmetric |
-| S. pneumoniae | 0.0049 ± 0.0002 | 0.89 ± 0.03 | 27σ | Asymmetric |
-| M. tuberculosis | 0.00044 ± 0.00015 | 0.56 ± 0.20 | 2.9σ | Symmetric |
-| Salmonella | 0.00004 ± 0.00002 | 1.6 ± 0.9 | 1.7σ | Symmetric |
+| E. coli | 0.032 ± 0.005 | 0.08 ± 0.01 | 7.2σ | Asymmetric |
+| B. subtilis | 0.006 ± 0.003 | 0.11 ± 0.07 | 1.7σ | Symmetric |
+| P. aeruginosa | 0.024 ± 0.002 | 1.0 ± 0.1 | 10σ | Asymmetric |
+| S. pneumoniae | 0.0049 ± 0.0006 | 0.9 ± 0.1 | 8.5σ | Asymmetric |
+| M. tuberculosis | 0.0004 ± 0.0005 | 0.6 ± 0.6 | 0.9σ | Symmetric |
+| Salmonella | 0.00004 ± 0.00007 | 1.6 ± 2.9 | 0.5σ | Symmetric |
 
-**Conclusion:** Using a 3σ threshold, four of the six pairs are asymmetric, with the WT consistently more abundant than the mutant. Although *E. coli* shows the largest absolute difference in counts, *P. aeruginosa* and *S. pneumoniae* show the strongest asymmetry relative to their abundance. *M. tuberculosis* and *Salmonella* are consistent with symmetry. *M. tuberculosis* lies just below the threshold, so more data could change this conclusion. *Salmonella* has the largest relative asymmetry but is also the rarest strain, so its uncertainty is too large for the asymmetry to be significant.
+**Conclusion:** Using a 3σ threshold, three of the six pairs (*E. coli*, *P. aeruginosa* and *S. pneumoniae*) are asymmetric, with the WT more abundant than the mutant. Although *E. coli* shows the largest absolute difference in counts, *P. aeruginosa* (A ≈ 1.0%) and *S. pneumoniae* (A ≈ 0.9%) show the strongest asymmetry relative to their abundance. *B. subtilis*, *M. tuberculosis* and *Salmonella* are consistent with symmetry: their differences are small compared to the spread between sub-samples. *Salmonella* has the largest A value, but it is also the rarest strain, so its uncertainty is too large for the asymmetry to be significant.
 
 ### Question 3: Asymmetry as a function of momentum
 *To be added.*
