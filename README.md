@@ -96,17 +96,17 @@ The 10 sub-sample values were then averaged per bin (for A, each sub-sample is w
 Units: Momentum is given in units of $10^{-20}$ kg m/s.
 
 #### E. coli (211 / -211)
-<img width="1643" height="960" alt="image" src="https://github.com/user-attachments/assets/bc9d9498-8284-4f31-8b11-20aac1119d70" />
+<img width="1665" height="969" alt="image" src="https://github.com/user-attachments/assets/c51afcbb-e671-4119-95bb-657845ed7e52" />
 *Figure 1. Asymmetry between WT and mutant E. coli. Overall asymmetry 0.00081 ± 0.00011. All 13 points are above zero, and the values rise from 0.0003 at P = 0 to 1, to 0.0014 to 0.0017 at P = 4 to 8 and 0.0026 at P = 24 to 40 (0.0082 above 40). However, no single bin reaches 3σ, the line fit gives a slope of (9.2 ± 4.6) × 10⁻⁵ per 10⁻²⁰ kg m/s (2.0σ), and a flat line fits the points (χ² = 5.4 for 12 points). The rise with momentum is the clearest of all pairs, but not significant.*
 
-<img width="1643" height="960" alt="image" src="https://github.com/user-attachments/assets/66a29993-a444-4b74-948b-19e9ec17dc26" />
+<img width="1665" height="969" alt="image" src="https://github.com/user-attachments/assets/a3a3625c-b9b2-457f-bb8f-021abdd0bb96" />
 *Figure 2. Momentum distribution of E. coli. E. coli is by far the most common strain (about 9.2 million WT per sub-sample), so the bins extend to P = 40. The density is highest in the first bin (dN/dP ≈ 5.8 at P = 0 to 1) and falls to 0.011 at P = 24 to 40. WT and mutant overlap because they differ by less than 0.1%.*
 
 #### B. subtilis (321 / -321)
-<img width="1643" height="960" alt="image" src="https://github.com/user-attachments/assets/96d2ec9c-76f9-4e65-a861-7da203764bb7" />
+<img width="1665" height="969" alt="image" src="https://github.com/user-attachments/assets/d0bc2905-081e-4f87-9026-80abab6557d4" />
 *Figure 3. Asymmetry between WT and mutant B. subtilis. Overall asymmetry 0.00114 ± 0.00066, not significant (1.7σ). The bin values range from −0.0005 to 0.0027 (0.0068 above P = 16), no bin reaches 3σ (the highest is 2.1σ, in the open bin), and the line fit gives a slope of (3.0 ± 1.8) × 10⁻⁴ per 10⁻²⁰ kg m/s (1.6σ), with χ² = 5.2 for 6 points for a flat line. No significant asymmetry and no significant momentum dependence.*
 
-<img width="1643" height="960" alt="image" src="https://github.com/user-attachments/assets/4b8c65fb-0e22-4d32-843e-746d1a0a3041" />
+<img width="1665" height="969" alt="image" src="https://github.com/user-attachments/assets/c6527cc7-2ed9-4021-8dd0-14d2f19cd545" />
 *Figure 4. Momentum distribution of B. subtilis (about 1.16 million WT per sub-sample, 6 wider bins). dN/dP is about 0.47 below P = 2 and falls to 0.031 at P = 8 to 16.*
 
 #### P. aeruginosa (2212 / -2212)
@@ -126,15 +126,15 @@ Units: Momentum is given in units of $10^{-20}$ kg m/s.
 #### M. tuberculosis (3312 / -3312)
 <img width="1643" height="960" alt="image" src="https://github.com/user-attachments/assets/8a082926-0891-4ea5-95f1-87ee53ae3a52" />
 *Figure 9. Asymmetry between WT and drug-resistant M. tuberculosis. Overall asymmetry 0.0056 ± 0.0062, not significant (0.9σ). Ten of the eleven points are above zero, but every error bar includes zero (no bin reaches even 1σ) and all points agree with the pink band. The line fit gives a slope of (5 ± 14) × 10⁻⁴ per 10⁻²⁰ kg m/s, only 0.4σ from 0, and a flat line fits the points (χ² = 0.4 for 10 points). M. tuberculosis has about 30 times fewer bacteria than P. aeruginosa, so the uncertainties are about 6 times larger: the data may hint at an asymmetry, but cannot show one.*
- 
 
 <img width="1643" height="960" alt="image" src="https://github.com/user-attachments/assets/e739aa04-a373-4969-b23a-698df80eaf87" />
 *Figure 10. Momentum distribution of M. tuberculosis (about 18,000 WT per sub-sample). Same shape as P. aeruginosa, but about 40 times lower at the peak (dN/dP ≈ 0.0058 at P = 1 to 1.5).*
 
 #### Salmonella (3334 / -3334)
-<img width="1643" height="960" alt="image" src="https://github.com/user-attachments/assets/112fcfc3-84b2-48b6-a4d2-0abadc0f5886" />
+<img width="1665" height="969" alt="image" src="https://github.com/user-attachments/assets/1dc3329b-e65f-4cce-8472-35e47312d0b5" />
 *Figure 11. Asymmetry between Salmonella enterica and its mutant. With only about 1,100 bacteria per sub-sample, just 4 momentum bins could be used. The overall asymmetry is 0.015 ± 0.029 (0.5σ), the bin values range from −0.0007 to 0.048 with error bars of 0.05 to 0.08, and the line fit gives a slope of (−1.3 ± 2.4) × 10⁻² per 10⁻²⁰ kg m/s (0.6σ), with χ² = 0.3 for 3 points. There are too few bacteria to see any asymmetry or momentum dependence.*
-<img width="1643" height="960" alt="image" src="https://github.com/user-attachments/assets/5ca4a2b5-fb2a-4a47-b9bb-338ef9c698ef" />
+
+<img width="1665" height="969" alt="image" src="https://github.com/user-attachments/assets/7bb71217-e3fd-446b-8b5f-e510747688ba" />
 *Figure 12. Momentum distribution of Salmonella. The rarest strain: dN/dP is only about 0.0001 per event, highest at P = 1.5 to 3.*
 
 #### All pairs
